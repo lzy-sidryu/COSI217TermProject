@@ -1,6 +1,6 @@
 ## Brief Code Structure
 
-`CRF` contains the CRF suite training code, which is re-structured from hw3, 4 and 5. crf.ipynb contains the actual executed code, including the code generating input for BERT model. Input files for BERT are under bert_data sub-directory.
+The `CRF` directory contains the CRF suite training code, which is re-structured from hw3, 4 and 5. crf.ipynb contains the actual executed code, including the code generating input for BERT model. Input files for BERT are under `bert_data` sub-directory. Also, the annotated jsonl files are under the `CRF/data` directory.
 
 `BERT-NER` contains the BERT NER model forked and modified from the BERT-NER pytorch open source repo. The model is train and tested using the following command:
 
